@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "VisualOxygenPropellant.dll",
+  "filename": "VisualPropellant.dll",
   "author": "Throckmorpheus",
-  "name": "VisualOxygenPropellant",
-  "uniqueName": "Throckmorpheus.VisualOxygenPropellant",
+  "name": "Visual Propellant",
+  "uniqueName": "Throckmorpheus.VisualPropellant",
   "version": "0.1.0",
   "owmlVersion": "2.13.0",
   "dependencies": []

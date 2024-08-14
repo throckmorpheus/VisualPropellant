@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 env:
-  PROJ_USERNAME: Ernesto
-  PROJ_NAME: VisualOxygenPropellant
+  PROJ_USERNAME: Throckmorpheus
+  PROJ_NAME: VisualPropellant
 
 jobs:
   pre_job:

@@ -3,11 +3,11 @@ using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 
-namespace VisualOxygenPropellant;
+namespace VisualPropellant;
 
-public class VisualOxygenPropellant : ModBehaviour
+public class VisualPropellant : ModBehaviour
 {
-	public static VisualOxygenPropellant Instance;
+	public static VisualPropellant Instance;
 
 	public void Awake()
 	{
@@ -20,9 +20,9 @@ public class VisualOxygenPropellant : ModBehaviour
 	public void Start()
 	{
 		// Starting here, you'll have access to OWML's mod helper.
-		ModHelper.Console.WriteLine($"{nameof(VisualOxygenPropellant)} is loaded.", MessageType.Success);
+		ModHelper.Console.WriteLine($"{nameof(VisualPropellant)} is loaded.", MessageType.Success);
 
-		new Harmony("Throckmorpheus.VisualOxygenPropellant").PatchAll(Assembly.GetExecutingAssembly());
+		new Harmony("Throckmorpheus.VisualPropellant").PatchAll(Assembly.GetExecutingAssembly());
 
 		// Example of accessing game code.
 		//OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
