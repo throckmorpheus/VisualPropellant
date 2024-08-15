@@ -6,7 +6,8 @@
         {
             "label": "build and launch",
             "command": "dotnet build; start owmods://run-game/Throckmorpheus.TestMod/",
-            "type": "shell"
+            "type": "shell",
+            "problemMatcher": []
         }
     ]
   }
